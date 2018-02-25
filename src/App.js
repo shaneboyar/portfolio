@@ -11,8 +11,8 @@ class App extends Component {
           <img src={logo} className="Nav_Logo" alt="logo" />
           <div className="Nav_Title">Shane Boyar</div>
           <div className="Nav_Icons">
-            <FaGithub className="Nav_Icon" />
-            <FaEnvelopeO className="Nav_Icon" />
+            <a href="https://github.com/shaneboyar"><FaGithub className="Nav_Icon" /></a>
+            <a href="mailto: shaneboyar@gmail.com"><FaEnvelopeO className="Nav_Icon" /></a>
           </div>
         </header>
         <div className="Body">
