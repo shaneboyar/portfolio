@@ -40,6 +40,7 @@
 }
 
 .Body {
+  margin: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +49,15 @@
 
 .Body_Intro {
   color: #fff;
+}
+
+@media only screen and (max-width: 400px){
+  .Nav_Logo {
+    height: 40px;
+  }
+  .Nav_Title {
+    font-size: 2em;
+  }
 }
 
 @keyframes App-logo-spin {
