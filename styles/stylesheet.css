@@ -1,0 +1,149 @@
+@font-face {
+  font-family: lemonMilk;
+  src: url('../fonts/LemonMilk.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: lemonMilk;
+  src: url('../fonts/LemonMilklight.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: lemonMilk;
+  src: url('../fonts/LemonMilklightitalic.otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  font-family: lemonMilk;
+  margin: 0;
+  color: #3A3A3A;
+}
+
+h1 {
+  font-size: 64px;
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 100;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 24px;
+  font-style: italic;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.GithubIcon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+  font-size: 48px;
+  opacity: 0.8;
+}
+
+.GithubIcon:hover {
+  opacity: 1;
+}
+
+.Header {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position-y: 60%;
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+
+.HeaderCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 36px;
+  width: 456px;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 36px;
+}
+
+.Bio {
+  width: 750px;
+  font-size: 24px;
+}
+
+.Divider {
+  display: flex;
+  align-items: center;
+  margin: 48px 0;
+}
+
+.Rocket {
+  height: 48px;
+  width: 48px;
+}
+
+.SectionHeader {
+  text-align: center;
+}
+
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 960px;
+  margin: 16px 0;
+}
+
+.Project {
+  width: 350px;
+  padding: 16px;
+}
+
+.Footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: #3A3A3A;
+}
+
+.IconCredit {
+  color: #fff;
+  font-size: 8px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
