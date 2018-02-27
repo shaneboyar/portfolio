@@ -91,7 +91,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   margin: 36px;
-  width: 456px;
+  max-width: 456px;
 }
 
 .Body {
@@ -102,7 +102,7 @@ a:hover {
 }
 
 .Bio {
-  width: 750px;
+  max-width: 750px;
   font-size: 24px;
 }
 
@@ -125,7 +125,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 960px;
+  max-width: 960px;
   margin: 16px 0;
 }
 
@@ -153,10 +153,15 @@ a:hover {
 
 .Lesson {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 800px;
+  max-width: 800px;
   margin-bottom: 32px;
+}
+
+.Reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .Book {
@@ -170,7 +175,7 @@ a:hover {
 }
 
 .LessonDetails {
-  width: 375px;
+  max-width: 375px;
 }
 
 .Footer {
@@ -194,7 +199,7 @@ a:hover {
 .ContactForm {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  max-width: 700px;
 }
 
 .FormButton {
