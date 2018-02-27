@@ -137,6 +137,9 @@ a:hover {
 .Project {
   width: 350px;
   padding: 16px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .ProjectLinks {
