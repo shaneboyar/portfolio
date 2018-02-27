@@ -235,23 +235,33 @@ a:hover {
     font-size: 12px;
     font-weight: 100;
   }
+
+  .Header {
+    background-attachment: initial;
+  }
+
   .HeaderCopy {
     width: initial;
     align-items: flex-start;
   }
+
   .Section {
     max-width: 350px;
   }
+
   .Bio {
     width: initial;
   }
+
   .Projects {
     width: initial;
   }
+
   .Lesson {
     width: 350px;
     justify-content: center;
   }
+
   .ContactForm {
     width: initial !important;
   }
