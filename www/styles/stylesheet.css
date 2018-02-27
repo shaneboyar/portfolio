@@ -68,13 +68,17 @@ a:hover {
   opacity: 1;
 }
 
-.GithubIcon {
+.HeaderIcons {
   position: absolute;
   top: 16px;
   right: 16px;
+}
+
+.HeaderIcon {
   color: #fff;
   font-size: 48px;
   opacity: 0.8;
+  margin-right: 6px;
 }
 
 .Header {
