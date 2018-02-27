@@ -195,6 +195,62 @@ a:hover {
   right: 10px;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .HeaderCopy {
+    width: initial;
+    align-items: flex-start;
+  }
+  .Section {
+    max-width: 350px;
+  }
+  .Bio {
+    width: initial;
+  }
+  .Projects {
+    width: initial;
+  }
+  .Lesson {
+    width: 350px;
+  }
+  .ContactForm {
+    width: initial !important;
+  }
+}
+
 /* Form Styles */
 .ContactForm {
   display: flex;
