@@ -180,28 +180,29 @@
         <div class="Divider"><img src="./images/rocket.svg" class="Rocket" /></div>
         <div class="Section">
           <h2 class="SectionHeader">Get in touch</h2>
-          <form class="ContactForm" id="contact-form" action="/" method="post">
+          <form class="ContactForm" id="contact-form" action="https://formspree.io/shaneboyar@gmail.com" method="post">
             <div>
               <label>
                 <span>Name:</span>
-                <input id="name" placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+                <input name="name" id="name" placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
               </label>
             </div>
             <div>
               <label>
                 <span>Email:</span>
-                <input id="email" placeholder="Please enter your email address" type="email" tabindex="2" required>
+                <input name="email" id="email" placeholder="Please enter your email address" type="email" tabindex="2" required>
               </label>
             </div>
             <div>
               <label>
                 <span>Message:</span>
-                <textarea id="message" placeholder="How's it going?" tabindex="3" required></textarea>
+                <textarea name="message" id="message" placeholder="How's it going?" tabindex="3" required></textarea>
               </label>
             </div>
             <div class="FormButton">
               <button name="submit" type="submit" id="contact-submit">Send Email</button>
             </div>
+            <input type="hidden" name="_next" value="/thanks.html" />
           </form>
         </div>
       </div>
