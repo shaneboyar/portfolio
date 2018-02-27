@@ -242,3 +242,10 @@ a:hover {
 :-ms-input-placeholder {
   color: #888;
 }
+
+/* Thanks page styles */
+
+.ThanksHeader {
+  height: 100vh;
+  justify-content: center;
+}
