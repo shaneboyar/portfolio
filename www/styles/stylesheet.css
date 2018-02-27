@@ -84,7 +84,8 @@ a:hover {
 .Header {
   background-image: url('../images/bg.jpg');
   background-size: cover;
-  background-position-y: 60%;
+  background-attachment: fixed;
+  background-position-y: 40%;
   display: flex;
   align-items: center;
   height: 600px;
