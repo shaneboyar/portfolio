@@ -245,6 +245,7 @@ a:hover {
   }
   .Lesson {
     width: 350px;
+    justify-content: center;
   }
   .ContactForm {
     width: initial !important;
