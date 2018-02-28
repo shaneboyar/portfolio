@@ -182,27 +182,13 @@
         <div class="Section">
           <h2 class="SectionHeader">Get in touch</h2>
           <form class="ContactForm" id="contact-form" action="https://formspree.io/shaneboyar@gmail.com" method="post">
-            <div>
-              <label>
-                <span>Name:</span>
-                <input name="name" id="name" placeholder="Please enter your name" type="text" tabindex="1" required>
-              </label>
-            </div>
-            <div>
-              <label>
-                <span>Email:</span>
-                <input name="email" id="email" placeholder="Please enter your email address" type="email" tabindex="2" required>
-              </label>
-            </div>
-            <div>
-              <label>
-                <span>Message:</span>
-                <textarea name="message" id="message" placeholder="How's it going?" tabindex="3" required></textarea>
-              </label>
-            </div>
-            <div class="FormButton">
-              <button type="submit" id="contact-submit">Send Email</button>
-            </div>
+            <label for="name">Name:</label>
+            <input name="name" id="name" placeholder="Please enter your name" type="text" tabindex="1" required>
+            <label for="email">Email:</label>
+            <input name="email" id="email" placeholder="Please enter your email address" type="email" tabindex="2" required>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="How's it going?" tabindex="3" required></textarea>
+            <button class="FormButton" type="submit" id="contact-submit">Send Email</button>
             <input type="hidden" name="_next" value="//www.shaneboyar.com/thanks.html" />
           </form>
         </div>
