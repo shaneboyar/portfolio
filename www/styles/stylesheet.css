@@ -166,6 +166,10 @@ a:hover {
   margin-bottom: 64px;
 }
 
+.LessonDetails a {
+  color: #3A3A3A;
+}
+
 .Reverse {
   flex-wrap: wrap-reverse;
 }
