@@ -136,7 +136,6 @@ a:hover {
 .Project {
   width: 350px;
   padding: 16px;
-  justify-content: center;
   display: flex;
   flex-direction: column;
 }
@@ -164,7 +163,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   width: 800px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .Reverse {
