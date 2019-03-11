@@ -136,6 +136,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  max-width: 960px;
   margin: 16px 0;
 }
 
