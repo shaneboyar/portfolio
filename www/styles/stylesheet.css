@@ -125,6 +125,28 @@ a:hover {
   text-align: center;
 }
 
+.LinkedSubheader {
+  text-decoration: underline;
+  color: darkgray;
+  text-align: center;
+}
+
+.Articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.Article {
+  display: flex;
+}
+
+.Article img {
+  width: 100%;
+}
+
 .Projects {
   display: flex;
   flex-wrap: wrap;
